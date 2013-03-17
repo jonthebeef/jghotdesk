@@ -1,0 +1,42 @@
+/*Change the google font below*/
+/*$baseFontFamily: Montserrat;
+@import url(http://fonts.googleapis.com/css?family=Montserrat);*/
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+$btnPrimaryBackground: green;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner{
+    @include box-shadow(none !important);
+    border: 0;
+}
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
+
+.hero-unit {
+	background: url(http://www.webapplicationsuk.com/wp-content/uploads/2012/06/hackathon-wp7.jpg);
+		h1 {
+			color:$white;
+		}
+		p {
+			margin-top: 15px;
+			color: $white;
+		}
+		a {
+			background-color: $black;
+		}
+}
